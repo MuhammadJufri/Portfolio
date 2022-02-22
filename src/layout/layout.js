@@ -1,4 +1,4 @@
-import { Navbar, Home, Projects, About, Resume, Contact } from '../Components/'
+import { Navbar, Home, Projects, About, Resume, Contact } from '../components/'
 
 export default function Layout() {
   return (
