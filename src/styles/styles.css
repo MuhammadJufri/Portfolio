@@ -1,0 +1,42 @@
+header {
+  height: 76px;
+  background-color: rgb(233, 235, 209);
+}
+
+.logo {
+  text-shadow: 4px 6px 10px rgba(0, 0, 0, 0.3);
+  font-size: 22px;
+  letter-spacing: 1.5px;
+  color: transparent;
+}
+
+.menuList {
+  font-size: 14px;
+}
+
+@media (max-width: 868px) {
+  header {
+    height: fit-content;
+  }
+
+  .menuList {
+    position: absolute;
+    background-color: rgba(233, 235, 209, 0.8);
+    top: 76px;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: auto;
+    padding: 20px 28px 100px !important;
+  }
+}
+
+@media (max-width: 239px) {
+  header nav {
+    flex-wrap: wrap !important;
+  }
+
+  .menuList {
+    top: 117px;
+  }
+}
